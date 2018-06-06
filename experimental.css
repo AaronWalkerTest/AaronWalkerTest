@@ -58,6 +58,24 @@ li a {
     text-decoration: none;
 }
 
+#aw-logo {
+    padding: 0;
+    margin: 0;
+    
+}
+
+#aw-logo:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.1, 1.1);
+}
+
+#aw-logo:active {
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(0.9, 0.9);
+}
+
 h1 {
     font-size: 120px;
     color: white;
