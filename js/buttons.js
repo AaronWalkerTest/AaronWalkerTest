@@ -1,3 +1,3 @@
 function experimentalButton() {
-    alert("Comming soon");
+    window.location.href = "experimental.html";
 }   
