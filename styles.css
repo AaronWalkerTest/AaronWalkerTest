@@ -218,9 +218,9 @@ img {
 }
 
 .blink {
-    animation: blinker 1s linear infinite;
+    animation: blinker 1s steps(1) infinite;
     display: inline-block;
-  }
+}
   
 @keyframes blinker {
 50% {
