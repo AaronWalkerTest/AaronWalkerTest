@@ -227,6 +227,33 @@ img {
 }
 }
 
+/* Email Form */
+.email-form-wrapper{
+    display: flex;
+    background-image: url(img/reverse-gradient.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.email-form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 0 auto; /* For IE9 */
+}
+
+.hero-banner img{
+    max-width: 60em;
+    height: auto;
+    padding-top: 0.5em;
+}
+
 .footer {
     left: 0;
     bottom: 0;
@@ -238,12 +265,4 @@ img {
     display: block;
     box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     list-style: none;
-}
-
-#footer-item {
-    display: block;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    
 }
