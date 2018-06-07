@@ -19,7 +19,7 @@ body {
 /* Navbar */
 .navbar {
     width: 100%;
-    height: 50px;
+    height: 45px;
     float: left;
     display: block;
     margin: 0px;
@@ -38,8 +38,9 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px;
+    padding: 13px;
     text-decoration: none;
+    font-size: 15px;
 }
 
 li a:hover {
@@ -102,6 +103,7 @@ h2 {
 
 h3 {
     color: #1E88E5;
+    padding: 10px 0 5px 0;
 }
 
 p {
@@ -177,7 +179,7 @@ p {
     width: 100%;
     margin: 0 auto;
     text-align: center; 
-    padding: 50px; 
+    padding: 30px; 
 }
 
 .content-segment {
@@ -228,7 +230,7 @@ img {
 }
 
 /* Email Form */
-.email-form-wrapper{
+.email-form-wrapper {
     display: flex;
     background-image: url(img/reverse-gradient.jpg);
     background-repeat: no-repeat;
@@ -237,23 +239,62 @@ img {
     height: auto;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center; 
 }
 
-.email-form{
-    display: flex;
-    width: 50%;
+.email-form {
+    width: 55%;
+}
+
+.h2-email {
+    font-size: 75px;
+    color: white;
+    display: inline-block;
+}
+
+.form-content{
+    display: flex; 
     flex-direction: column;
-    align-items: center;
-    margin: 0 auto 0 auto; /* For IE9 */
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    align-items: left; 
+    color: white;
+    padding: 5px;
 }
 
-.hero-banner img{
-    max-width: 60em;
-    height: auto;
-    padding-top: 0.5em;
+input[type=text], select {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
 }
 
+input[type=email], select {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+
+textarea {  
+    font-family: FS Me, Arial, sans-serif;
+    resize: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Footer */
 .footer {
     left: 0;
     bottom: 0;

@@ -16,10 +16,9 @@
     <body>
         <!--Navbar -->
         <ul class="navbar">
-            <img id="aw-logo" src="img/aw-logo.png" alt="AW Logo" width="48" onclick="logoButton()">
-            <li><a href="#">Three</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">One</a></li>
+            <img id="aw-logo" src="img/aw-logo.png" alt="AW Logo" width="45" onclick="logoButton()">
+            <li><a href="https://www.linkedin.com/in/aaron-james-walker/">Linked In</a></li>
+            <li><a href="https://github.com/AaronWalker96">GitHub</a></li>
             <li><a href="index.html">Home</a></li>
         </ul>
 
@@ -63,21 +62,30 @@
 
         <!--Email Form-->
         <div class="email-form-wrapper">
-            <div class="hero-banner-intro"><h1>Contact Me</h1>
-                <form action="https://formspree.io/aaron45587@gmail.com"
-                    method="POST">
-                    <input type="text" name="name">
-                    <input type="email" name="_replyto">
-                    <input type="submit" value="Send">
-                </form><br><br><br><br><br> 
+            <div class="email-form">
+                <div class="h2-email">
+                    Get in touch<h5 class="blink">_</h5>
+                </div>
+                <div class="form-content">
+                    <form action="https://formspree.io/aaron45587@gmail.com" autocomplete="off" method="POST">
+                        <h3>Name</h3>
+                        <input type="text" name="name" cols="30" rows="10">
+                        <h3>Email</h3>
+                        <input type="email" name="_replyto" cols="30" rows="10">
+                        <h3>Message</h3>
+                        <textarea type="text" name="_message" cols="30" rows="10"></textarea><br><br>
+                        <input class="md-btn" type="submit" value="Send">
+                    </form><br><br>
+                </div>
+            </div>
         </div> 
 
-        <!--Footer -->
+        <!--Footer 
         <ul class="footer">
             <li><a href="https://www.linkedin.com/in/aaron-james-walker/">Linked In</a></li>
             <li><a href="https://github.com/AaronWalker96">GitHub</a></li>
             <li><a href="#" onmousedown="emailForm()">Email</a></li>
-        </ul>
+        </ul> -->
 
     </body>
 
