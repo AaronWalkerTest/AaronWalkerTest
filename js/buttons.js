@@ -5,3 +5,7 @@ function experimentalButton() {
 function logoButton() {
     window.location.href = "index.html";
 }
+
+function emailForm() {
+    alert("Hello! I am an alert box!!");
+}
