@@ -111,7 +111,7 @@ h1 {
 }
 @media (max-width: 480px) {
     .h1-card {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
