@@ -30,27 +30,24 @@
         
         <!--Main Content-->
         <div class="main-content">
-            <div class="content-segment">
-                <div class="card">
-                    <h2>Aaron Walker</h2>
-                    <p>University student studying Computer Science. Currently on placement year at Accenture.
-                        I have a keen interest in all areas of development and I have made this site to enhance 
-                        my HTML, CSS, JavaScript and design skills. Check it out on GitHub.
-                    </p>
+            <div class="card-container">
+                <div class="card"><a href="doc/cv.docx" download="AaronWalkerCV.docx">
+                    <div class="h1-card">See my CV?</div>
+                    </a>
                 </div>
                 <div class="card" onclick="experimentalButton()">
                     <div class="h1-card">Experimental</div>
                 </div>
             </div>
             <!--Cards-->
-            <div class="card-container">
+            <div class="card-container" onmousedown="PopupCenter()">
                 <div class="card">
                     <img src="img/email.svg" width="100px">
-                    <h4>Get in touch</h4>
+                    <h4>Contact</h4>
                 </div>
                 <div class="card">
                     <img src="img/location.svg" width="100px">
-                    <h4>Newcaste</h4>
+                    <h4>Newcaste, UK</h4>
                 </div>  
                 <div class="card">
                     <img src="img/bar-chart.svg" width="100px">
@@ -69,11 +66,11 @@
                 <div class="form-content">
                     <form action="https://formspree.io/aaron45587@gmail.com" autocomplete="off" method="POST">
                         <h3>Name</h3>
-                        <input type="text" name="name" cols="30" rows="10">
+                        <input type="text" name="name" cols="30" rows="10" placeholder="Your name" autocomplete="off">
                         <h3>Email</h3>
-                        <input type="email" name="_replyto" cols="30" rows="10">
+                        <input type="email" name="_replyto" cols="30" rows="10" placeholder="your-email@example.com" autocomplete="off">
                         <h3>Message</h3>
-                        <textarea type="text" name="_message" cols="30" rows="10"></textarea><br><br>
+                        <textarea type="text" name="_message" cols="30" rows="10"placeholder="What do you want ask me?" autocomplete="off"></textarea><br><br>
                         <input class="md-btn" type="submit" value="Send">
                     </form><br><br>
                 </div>

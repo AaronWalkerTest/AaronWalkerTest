@@ -6,6 +6,13 @@ function logoButton() {
     window.location.href = "index.html";
 }
 
-function emailForm() {
-    alert("Hello! I am an alert box!!");
-}
+$("#divdeps").dialog({
+    autoOpen: false,
+    show: 'slide',
+    resizable: false,
+    position: 'center',
+    stack: true,
+    height: 'auto',
+    width: 'auto',
+    modal: true
+});

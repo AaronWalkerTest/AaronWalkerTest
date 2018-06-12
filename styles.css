@@ -16,6 +16,11 @@ body {
     box-sizing: border-box;
 }
   
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Navbar */
 .navbar {
     width: 100%;
@@ -72,12 +77,22 @@ h1 {
     color: white;
     display: inline-block;
 } 
+@media (max-width: 480px) {
+    h1 {
+        font-size: 50px;
+    }
+}
 
 .h1-halfspace {
     font-size: 60px;
     color: white;
     display: inline-block;
 } 
+@media (max-width: 480px) {
+    .h1-halfspace {
+        font-size: 20px;
+    }
+}
 
 .h1-card {
     width: 100%;
@@ -93,6 +108,11 @@ h1 {
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
+}
+@media (max-width: 480px) {
+    .h1-card {
+        font-size: 40px;
+    }
 }
 
 h2 {
@@ -121,6 +141,12 @@ p {
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
+}
+
+@media (max-width: 480px) {
+    .hero-banner-wrapper {
+        background: #1E88E5;
+    }
 }
 
 .hero-banner{
@@ -182,20 +208,24 @@ p {
     padding: 30px; 
 }
 
-.content-segment {
-    width: 65%;
-    margin:0px auto;
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-}
-
 /* Cards */
 .card-container {
     width: 65%;
     margin:0 auto;
     display: flex;
     flex-direction: row;
+}
+
+@media (min-width: 1100px) {
+    .card-container {
+      width: 65%;
+    }
+}
+@media (max-width: 480px) {
+    .card-container {
+        width: 100%;
+        flex-direction: column;
+    }
 }
 
 .card {
@@ -207,6 +237,7 @@ p {
     padding: 20px;
     border-radius: 5px;
     margin: 10px;
+    text-decoration: none;
 }   
 
 .card:hover {
@@ -224,15 +255,15 @@ img {
 }
   
 @keyframes blinker {
-50% {
-    opacity: 0;
-}
+    50% {
+        opacity: 0;
+    }
 }
 
 /* Email Form */
 .email-form-wrapper {
     display: flex;
-    background-image: url(img/reverse-gradient.jpg);
+    background-image: url(img/gradient-hero-banner.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -244,14 +275,33 @@ img {
     align-items: center; 
 }
 
+@media (max-width: 480px) {
+    .email-form-wrapper {
+        background: #1E88E5;
+        text-align: center;
+    }
+}
+
 .email-form {
     width: 55%;
+}
+
+@media (max-width: 480px) {
+    .email-form {
+        width: 90%;
+    }
 }
 
 .h2-email {
     font-size: 75px;
     color: white;
     display: inline-block;
+}
+
+@media (max-width: 480px) {
+    .h2-email {
+        font-size: 50px;
+    }
 }
 
 .form-content{
@@ -292,6 +342,7 @@ textarea {
     -moz-border-radius: 5px;
     border-radius: 5px;
     width: 100%;
+    padding: 5px;
 }
 
 /* Footer */
