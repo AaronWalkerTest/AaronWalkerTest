@@ -115,6 +115,21 @@ h1 {
     }
 }
 
+.h4-card {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(right, #0060b5, #57a6ed); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(right, #0060b5, #57a6ed); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(right, #0060b5, #57a6ed); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(right, #0060b5, #57a6ed); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to left, #0060b5, #57a6ed); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 h2 {
     font-size: 25px;
     color: #1E88E5;
