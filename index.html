@@ -40,11 +40,7 @@
                 </div>
             </div>
             <!--Cards-->
-            <div class="card-container" onmousedown="PopupCenter()">
-                <div class="card">
-                    <img src="img/email.svg" width="100px">
-                    <div class="h4-card">Contact</div>
-                </div>
+            <div class="card-container">
                 <div class="card">
                     <img src="img/location.svg" width="100px">
                     <div class="h4-card">Newcaste, UK</div>
@@ -52,7 +48,21 @@
                 <div class="card">
                     <img src="img/bar-chart.svg" width="100px">
                     <div class="h4-card">Skills</div>
+                </div>
+                <div class="card" onmousedown="toggleVisible('contactDetails')">
+                    <img src="img/email.svg" width="100px">
+                    <div class="h4-card">Contact</div>
                 </div>         
+            </div>
+
+            <div id="contactDetails" style="display: none">
+                <div class="card-container">
+                    <div class="card">
+                        <strong>Email:</strong> aaron45587@gmail.com<br><br>
+                        <strong>LinkedIn:</strong> linkedin.com/in/aaron-james-walker/<br><br>
+                        use the form bellow <br>
+                    </div>
+                </div>
             </div>
              
         </div>
