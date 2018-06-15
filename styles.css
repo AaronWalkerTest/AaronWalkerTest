@@ -269,6 +269,11 @@ img {
     }
 }
 
+/* Hidden contact information */
+#contactDetails {
+    text-align: left;
+}
+
 /* Email Form */
 .email-form-wrapper {
     display: flex;
