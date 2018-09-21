@@ -8,6 +8,7 @@ A sandbox GitHub: Pages website to learn HTML, CSS and JavaScript
 - [ ] Complete portfolio cover page
 - [X] Add mobile support 
 - [X] Add Temporary 'Experimental' page  
+- [X] Add Google Maps link
 
 ## Known Bugs
 | Bug ID | Description  | Status |
