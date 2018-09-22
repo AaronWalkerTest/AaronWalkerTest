@@ -8,8 +8,8 @@ if (hour > 18) {
 else if (hour > 12) {
     greeting = "Good Afternoon!";
 }
-else if (hour > 0) {
+else {
     greeting = "Good Morning!";
 }
 
-document.write('<h3>' + greeting + '<h3>');
+document.write('<h3>' + greeting + " I'm Aaron Walker, and I like to make stuff." + '<h3>');

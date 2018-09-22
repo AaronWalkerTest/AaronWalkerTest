@@ -17,9 +17,9 @@
         <!--Navbar -->
         <ul class="navbar">
             <img id="aw-logo" src="img/aw-logo.png" alt="AW Logo" width="45" onclick="logoButton()">
-            <li><a href="https://www.linkedin.com/in/aaron-james-walker/">Linked In</a></li>
-            <li><a href="https://github.com/AaronWalker96">GitHub</a></li>
-            <li><a href="index.html">Home</a></li>
+            <li class="nav-li"><a href="https://www.linkedin.com/in/aaron-james-walker/">Linked In</a></li>
+            <li class="nav-li"><a href="https://github.com/AaronWalker96">GitHub</a></li>
+            <li class="nav-li"><a href="index.html">Home</a></li>
         </ul>
 
         <!--Hero Banner-->
@@ -31,41 +31,39 @@
         
         <!--Main Content-->
         <div class="main-content">
+            <!--Cards-->
             <div class="card-container">
+                <div class="card" onclick="location.href='https://www.google.co.uk/maps/place/Teesside+University/@54.5727041,-1.2368707,17z/data=!3m1!4b1!4m5!3m4!1s0x487eed103197614f:0xe6f3fb7efeb63bb!8m2!3d54.572701!4d-1.234682'">
+                    <div class="h1-card">Teesside, UK</div>
+                </div>  
                 <div class="card"><a href="doc/cv.docx" download="AaronWalkerCV.docx">
                     <div class="h1-card">See my CV</div>
                     </a>
                 </div>
-                <div class="card" onclick="experimentalButton()">
-                    <div class="h1-card">Experimental</div>
-                </div>
-            </div>
-            <!--Cards-->
-            <div class="card-container">
-                <div class="card" onclick="location.href='https://www.google.co.uk/maps/place/Teesside+University/@54.5727041,-1.2368707,17z/data=!3m1!4b1!4m5!3m4!1s0x487eed103197614f:0xe6f3fb7efeb63bb!8m2!3d54.572701!4d-1.234682'">
-                    <img src="img/location.svg" width="100px">
-                    <div class="h4-card">Teesside, UK</div>
-                </div>  
-                <div class="card">
-                    <img src="img/bar-chart.svg" width="100px">
-                    <div class="h4-card">Skills</div>
-                </div>
                 <div class="card" onmousedown="toggleVisible('contactDetails')">
-                    <img src="img/email.svg" width="100px">
-                    <div class="h4-card">Contact</div>
+                    <div class="h1-card">Contact</div>
                 </div>         
             </div>
-
-            <div id="contactDetails" style="display: none">
-                <div class="card-container">
-                    <div class="card">
-                        <strong>Email:</strong> aaron45587@gmail.com<br><br>
-                        <strong>LinkedIn:</strong> linkedin.com/in/aaron-james-walker/<br><br>
-                        use the form bellow <br>
-                    </div>
-                </div>
+            <div class="segment">
+                <h2>Skills</h2>
+                <p>I can do a bunch of stuff, how about you take a look?</p>
+            </div>  
+            <div class="segment-horizontal">
+                <ul class="segment">
+                    <h4>Day to day</h4>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>UiPath</li>
+                </ul>                   
+                <ul class="segment">
+                    <h4>Experience with</h4>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>UiPath</li>
+                </ul>                    
             </div>
-             
+            </div>
+                       
         </div>
 
         <!--Email Form-->
