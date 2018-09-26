@@ -35,7 +35,7 @@ a {
     position: fixed;
 }
 
-li {
+.nav-li {
     float: right;
 }
 
@@ -49,7 +49,7 @@ li a {
 }
 
 li a:hover {
-    background: #1E88E5;
+    background: #243B55;
     color: white;
     transition: 0.3s;
 }
@@ -57,7 +57,6 @@ li a:hover {
 #aw-logo {
     padding: 0;
     margin: 0;
-    
 }
 
 #aw-logo:hover {
@@ -97,14 +96,14 @@ h1 {
 .h1-card {
     width: 100%;
     height: 100%;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
-    padding: 37px;
-    background-image: -webkit-linear-gradient(right, #0060b5, #57a6ed); /* For Chrome and Safari */
-    background-image:    -moz-linear-gradient(right, #0060b5, #57a6ed); /* For old Fx (3.6 to 15) */
-    background-image:     -ms-linear-gradient(right, #0060b5, #57a6ed); /* For pre-releases of IE 10*/
-    background-image:      -o-linear-gradient(right, #0060b5, #57a6ed); /* For old Opera (11.1 to 12.0) */
-    background-image:         linear-gradient(to left, #0060b5, #57a6ed); /* Standard syntax; must be last */
+    padding: 20px;
+    background-image: -webkit-linear-gradient(right, #141E30, #243B55); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(right, #141E30, #243B55); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(right, #141E30, #243B55); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(right, #141E30, #243B55); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to left, #141E30, #243B55); /* Standard syntax; must be last */
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -116,9 +115,9 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
-    color: #1E88E5;
-    padding: 0px 10px 10px 0px;
+    font-size: 35px;
+    color: #141E30;
+    padding: 20px 0px;
 } 
 
 h3 {
@@ -132,11 +131,11 @@ h3 {
     height: 100%;
     font-size: 25px;
     text-align: center;
-    background-image: -webkit-linear-gradient(right, #0060b5, #57a6ed); /* For Chrome and Safari */
-    background-image:    -moz-linear-gradient(right, #0060b5, #57a6ed); /* For old Fx (3.6 to 15) */
-    background-image:     -ms-linear-gradient(right, #0060b5, #57a6ed); /* For pre-releases of IE 10*/
-    background-image:      -o-linear-gradient(right, #0060b5, #57a6ed); /* For old Opera (11.1 to 12.0) */
-    background-image:         linear-gradient(to left, #0060b5, #57a6ed); /* Standard syntax; must be last */
+    background-image: -webkit-linear-gradient(right, #141E30, #243B55); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(right, #141E30, #243B55); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(right, #141E30, #243B55); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(right, #141E30, #243B55); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to left, #141E30, #243B55); /* Standard syntax; must be last */
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -149,9 +148,10 @@ p {
 /* Hero banner */
 .hero-banner-wrapper{
     display: flex;
-    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    text-align: center;
+    background: linear-gradient(to left, #141E30, #243B55);
     width: 100%;
-    height: auto;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
@@ -159,10 +159,10 @@ p {
 
 .hero-banner{
     display: flex;
-    width: 50%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto 0 auto; /* For IE9 */
+    padding: 20vh;
 }
 
 .hero-banner img{
@@ -218,6 +218,22 @@ p {
     padding: 30px; 
 }
 
+.segment {
+    width: 65%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.segment-horizontal {
+    width: 65%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
 /* Cards */
 .card-container {
     width: 65%;
@@ -248,17 +264,13 @@ p {
     border-radius: 5px;
     margin: 10px;
     text-decoration: none;
+    align-content: center;
 }   
 
 .card:hover {
     box-shadow: 0 8px 16px 5px rgba(0,0,0,0.2);
     cursor: pointer;
 }
-
-img {
-    border-radius: 5px 5px 0 0;
-}
-
 .blink {
     animation: blinker 1s steps(1) infinite;
     display: inline-block;
@@ -278,7 +290,7 @@ img {
 /* Email Form */
 .email-form-wrapper {
     display: flex;
-    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to left, #141E30, #243B55);
     width: 100%;
     height: auto;
     flex-direction: column;
