@@ -149,12 +149,34 @@ p {
 .hero-banner-wrapper{
     display: flex;
     text-align: center;
-    background: linear-gradient(to right, #141E30, #243B55);
+    background: linear-gradient(270deg, #243B55, #05080d);
+    background-size: 400% 400%;
+    
+    -webkit-animation: HeroAnimation 10s ease infinite;
+    -moz-animation: HeroAnimation 10s ease infinite;
+    animation: HeroAnimation 10s ease infinite;
+
     width: 100%;
     height: 100vh;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
+}
+
+@-webkit-keyframes HeroAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes HeroAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes HeroAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .hero-banner{
@@ -242,13 +264,13 @@ p {
 	border-radius: 25px;
 	padding: 0px;
 }
-#myBar {
-    width: 70%;
+#javaBar, #cSharpBar, #uipathBar, #webBar {
+    width: 0%;
     height: 20px;
     -moz-border-radius: 25px;
 	-webkit-border-radius: 25px;
 	border-radius: 25px;
-    background-color: #243B55;
+    background: #243B55;
 }
 
 /* Cards */
@@ -307,8 +329,13 @@ p {
 /* Email Form */
 .email-form-wrapper {
     display: flex;
-    background: linear-gradient(to left, #141E30, #243B55);
-    width: 100%;
+    background: linear-gradient(270deg, #05080d, #243B55);
+    background-size: 400% 400%;
+    
+    -webkit-animation: HeroAnimation 10s ease infinite;
+    -moz-animation: HeroAnimation 10s ease infinite;
+    animation: HeroAnimation 10s ease infinite;
+
     height: auto;
     flex-direction: column;
     align-items: center;
