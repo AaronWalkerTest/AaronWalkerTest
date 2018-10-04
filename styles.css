@@ -184,7 +184,7 @@ p {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    padding: 20vh;
+    padding: 0;
 }
 
 .hero-banner img{
