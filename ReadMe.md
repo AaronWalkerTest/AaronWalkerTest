@@ -4,6 +4,8 @@
 A sandbox GitHub: Pages website to learn HTML, CSS and JavaScript
 
 ## To Do
+- [ ] Clean up CSS file
+- [ ] Clean up Index.html file
 - [ ] Add content to 'Experimental' page
 - [ ] Complete portfolio cover page
 - [X] Add mobile support 
@@ -13,6 +15,6 @@ A sandbox GitHub: Pages website to learn HTML, CSS and JavaScript
 ## Known Bugs
 | Bug ID | Description  | Status |
 | :----: |:-------------|:------:|
-| 1      | CSS broken on mobile devices | Closed |
+| 1      | Optimise design for mobile device | Open |
 | 2      |              |        |
 | 3      |              |        |
