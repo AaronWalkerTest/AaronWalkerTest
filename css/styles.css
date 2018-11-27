@@ -7,6 +7,13 @@ a {
     line-height: 23px; 
     text-decoration: none;
     color: black;
+    padding: 13px;
+}
+
+a:hover {
+    transition: 0.3s;
+    background: gray;
+    color: white;
 }
 
 h1 { 
@@ -76,5 +83,4 @@ pre {
 
 .nav-li {
     display: inline;
-    padding: 13px;
 }
