@@ -1,120 +1,40 @@
-<!DOCTYPE HTML>
+<!doctype html>
 
 <html lang="en">
-	<head>
-        <link rel="icon" href="img/aw-logo2.png">
-		<title>Aaron Walker</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="A sandbox site to learn HTML, CSS and JS features" />
-        <link rel="stylesheet" href="styles.css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="js/buttons.js"></script>
-		
-	</head>
+<head>
+    <meta charset="utf-8">
 
-    <body>
-        <!--Navbar -->
-        <ul class="navbar">
-            <img id="aw-logo" src="img/aw-logo2.png" alt="AW Logo" width="45" onclick="logoButton()">
-            <li class="nav-li"><a href="https://www.linkedin.com/in/aaron-james-walker/">Linked In</a></li>
-            <li class="nav-li"><a href="https://github.com/AaronWalker96">GitHub</a></li>
-            <li class="nav-li"><a href="index.html">Home</a></li>
-        </ul>
+    <title>Aaron Walker</title>
+    <meta name="description" content="Aaron Walker CV Site">
+    <meta name="author" content="Aaron Walker">
 
-        <!--Hero Banner-->
-        <div class="hero-banner-wrapper">
-            <div class="hero-banner">
-                <div class="h1">
-                    <br><h1><br>Hello world</h1><h1 class="blink">_</h1>
-                </div><br>
-                <script src='js/greeting.js'></script><br>
-                <button type="button" class="md-btn" onclick="window.location.href='https://github.com/AaronWalker96/AaronWalker96.github.io'">See on GitHub</button>
-            </div>
-        </div>  
-        
-        <!--Main Content-->
-        <div class="main-content"> 
-            <!--Cards-->
-            <div class="card-container">
-                <div class="card" onclick="location.href='https://www.google.co.uk/maps/place/Teesside+University/@54.5727041,-1.2368707,17z/data=!3m1!4b1!4m5!3m4!1s0x487eed103197614f:0xe6f3fb7efeb63bb!8m2!3d54.572701!4d-1.234682'">
-                    <div class="h1-card">Teesside, UK</div>
-                </div>  
-                <div class="card"><a href="doc/cv.docx" download="AaronWalkerCV.docx">
-                    <div class="h1-card">See my CV</div>
-                    </a>
-                </div>
-                <div class="card" onmousedown="toggleVisible('contactDetails')">
-                    <div class="h1-card">Contact</div>
-                </div>         
-            </div>
-            <div class="segment">
-                <h2>Skills</h2>
-                <p>I can do a bunch of stuff, how about you take a look?</p><br>
-                <h5>Java development</h5>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                <div id="myProgress" onclick="move(70, 'javaBar')">
-                    <div id="javaBar"></div>
-                </div><br>
-                <h5>C# development</h5>
-                <div id="myProgress" onclick="move(50, 'cSharpBar')">
-                    <div id="cSharpBar"></div>
-                </div><br>
-                <h5>UiPath development</h5>
-                <div id="myProgress" onclick="move(90, 'uipathBar')">
-                    <div id="uipathBar"></div>
-                </div><br>
-                <h5>Web development</h5>
-                <div id="myProgress" onclick="move(25, 'webBar')">
-                    <div id="webBar"></div>
-                </div>
-            </div>  
-            <div class="segment-horizontal">
-                <ul class="segment">
-                    <h4>Day to day</h4>
-                    <li>Java</li>
-                    <li>C#</li>
-                    <li>UiPath</li>
-                </ul>                   
-                <ul class="segment">
-                    <h4>Experience with</h4>
-                    <li>Java</li>
-                    <li>C#</li>
-                    <li>UiPath</li>
-                </ul>                    
-            </div>
-            </div>
-                       
-        </div>
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
 
-        <!--Email Form-->
-        <div class="email-form-wrapper">
-            <div class="email-form">
-                <div class="h2-email">
-                    Get in touch<h5 class="blink">_</h5><br>
-                </div>
-                <div class="form-content">
-                    <form action="https://formspree.io/aaron45587@gmail.com" autocomplete="off" method="POST">
-                        <h3>Name</h3>
-                        <input type="text" name="name" cols="30" rows="10" placeholder="Your name" autocomplete="off">
-                        <br><br><h3>Email</h3>
-                        <input type="email" name="_replyto" cols="30" rows="10" placeholder="your-email@example.com" autocomplete="off">
-                        <br><br><h3>Message</h3>
-                        <textarea type="text" name="_message" cols="30" rows="10"placeholder="What do you want ask me?" autocomplete="off"></textarea><br><br>
-                    </div><br>
-                    <input class="md-btn" type="submit" value="Send">
-                    </form><br><br><br>
-                
-            </div>
-        </div>
+</head>
 
-        <!--Footer 
-        <ul class="footer">
-            <li><a href="https://www.linkedin.com/in/aaron-james-walker/">Linked In</a></li>
-            <li><a href="https://github.com/AaronWalker96">GitHub</a></li>
-            <li><a href="#" onmousedown="emailForm()">Email</a></li>
-        </ul> -->
-
-    </body>
-
-</html> 
+<body>
+    <div class="title">
+        <h1>Aaron Walker</h1>
+        <li class="nav-li"><a href="https://www.linkedin.com/in/aaron-james-walker/">Linked In</a></li>
+        <li class="nav-li"><a href="https://github.com/AaronWalker96">GitHub</a></li>
+        <li class="nav-li"><a href="docs/AaronWalkerCV.pdf">Download CV</a></li>
+    </div>
+    <div class="center">
+        <h2>Personal profile</h2>
+        <h3>Introduction</h3>
+        <p>I am currently a student studying Computer Science at Teesside University with a predicted 1st class degree.
+        I have industry experience in the form of a placement year working as a software developer at Accenture. 
+        My University modules have helped me develop strong problem solving skills as well as gaining significant 
+        technical experience with different software and technologies. My previous work experience has equipped me with 
+        an excellent attention to detail along with great organisational skills.</p>
+        <h3>Skills and technologies</h3>
+        <p>Some of the technologies I have worked with include: C#, Java, Python, SQL, UIPath (Robotics Process Automation), 
+        NetLogo, Clojure, HTML, CSS and Git. I've build projects using: Visual Studio, Android Studio, Xcode and UIPath Studio.
+        </p>
+        <h3>Get in contatct</h3>
+        <p>Why not get in contact with me by sending a message on Linked In or emailing me at aaron45587@gmail.com. I look forward
+        to hearing from you! :) 
+        </p>
+    </div>
+</body>
+</html>
