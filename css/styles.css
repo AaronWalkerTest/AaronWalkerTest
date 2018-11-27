@@ -1,6 +1,6 @@
 a {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
-    font-size: 14px; 
+    font-size: 16px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
@@ -45,21 +45,6 @@ p {
     line-height: 23px; 
 } 
 
-@media only screen and (max-width: 1000px) {
-    h1 {
-        font-size: 50px;
-    }
-    h2 {
-        font-size: 40px;
-    }
-    h3 {
-        font-size: 27px;
-    }
-    p {
-        font-size: 20px;
-    }
-}
-
 blockquote { 
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
     font-size: 17px; 
@@ -86,13 +71,7 @@ pre {
 .center {
     margin: 0 auto;
     width: 50%;
-}
-
-@media (max-width: 100px) {
-    .center {
-        margin: 0 auto;
-        width: 75%;
-    }
+    padding-bottom: 50px;
 }
 
 .nav-li {
