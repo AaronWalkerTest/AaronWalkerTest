@@ -78,9 +78,36 @@ pre {
 .center {
     margin: 0 auto;
     width: 50%;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.center:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.col-list {
+    width: 33%;
 }
 
 .nav-li {
     display: inline;
+}
+
+.body-li {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 23px; 
+    text-decoration: none;
+    color: black;
+    list-style-type: square;
 }
