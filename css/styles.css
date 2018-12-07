@@ -1,18 +1,22 @@
 a {
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
-    font-size: 16px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
-    line-height: 23px; 
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
     text-decoration: none;
     color: black;
+    border-style: solid;
     padding: 13px;
+    border-width: 0.75px;
+    border-color: #d4d4d4;
 }
 
 a:hover {
     transition: 0.3s;
     background: black;
+    border-color: black;
     color: white;
 }
 
@@ -32,6 +36,7 @@ h2 {
     font-variant: normal; 
     font-weight: 700; 
     line-height: 23px; 
+    padding-top: 15px;
 } 
 
 h3 { 
@@ -43,6 +48,18 @@ h3 {
     line-height: 23px; 
 } 
 
+h4 { 
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+    font-size: 17px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 23px; 
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 18px;
+} 
+
 p { 
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
     font-size: 14px; 
@@ -51,6 +68,16 @@ p {
     font-weight: 400; 
     line-height: 23px; 
 } 
+
+li {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 23px; 
+    list-style-type: square;
+}
 
 blockquote { 
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
@@ -75,6 +102,11 @@ pre {
     padding: 50px;
 }
 
+.item-wrapper {
+    margin: 0 auto;
+    overflow: auto;
+}
+
 .center {
     margin: 0 auto;
     width: 50%;
@@ -87,6 +119,16 @@ pre {
     clear: both;
 }
 
+.left {
+    float: left;
+    width: 75%;
+}
+
+.right {
+    margin-left: 75%;
+    text-align: right;
+}
+
 .list-wrapper {
     width: 100%;
     display: flex;
@@ -94,6 +136,11 @@ pre {
 
 .col-list {
     width: 33%;
+    text-align: center;
+}
+
+.col-list-1 {
+    text-align: center;
 }
 
 .nav-li {
@@ -110,4 +157,22 @@ pre {
     text-decoration: none;
     color: black;
     list-style-type: square;
+}
+
+.footer {
+    position: fixed;
+    left: 90%;
+    bottom: 0;
+    width: 10%;
+    color: black;
+    text-align: right;
+}
+
+.footer-padding {
+    padding: 20px;
+    padding-right: 30px;
+}
+
+#darkbutton {
+    cursor: pointer;
 }
