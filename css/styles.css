@@ -136,11 +136,8 @@ pre {
 
 .col-list {
     width: 33%;
-    text-align: center;
-}
-
-.col-list-1 {
-    text-align: center;
+    text-align: Left;
+    padding-left: 10px;
 }
 
 .nav-li {
