@@ -147,8 +147,8 @@ pre {
 .mac-toolbar-thing {
     padding: 0;
     background: linear-gradient(#e5e5e5, #cecdce) ;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     padding: 6px 0px 4px 5px;
     color: black;
     text-align: center;
