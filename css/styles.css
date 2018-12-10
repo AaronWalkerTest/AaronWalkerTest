@@ -1,3 +1,12 @@
+body {
+    background: rgb(63, 82, 99);
+    padding: 20px 0px 20px 0px;
+}
+
+.body-light {
+    background: white;
+}
+
 a {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-size: 16px;
@@ -6,7 +15,7 @@ a {
     font-weight: 400;
     line-height: 23px;
     text-decoration: none;
-    color: black;
+    color: white;
     border-style: solid;
     padding: 13px;
     border-width: 0.75px;
@@ -15,9 +24,9 @@ a {
 
 a:hover {
     transition: 0.3s;
-    background: black;
-    border-color: black;
-    color: white;
+    background: white;
+    border-color: white;
+    color: black;
 }
 
 h1 { 
@@ -99,7 +108,7 @@ pre {
 
 .title {
     text-align: center;
-    padding: 50px;
+    padding: 0px 0px 60px 0px;
 }
 
 .item-wrapper {
@@ -109,8 +118,73 @@ pre {
 
 .center {
     margin: 0 auto;
-    width: 50%;
-    padding-bottom: 20px;
+    width: 60%;
+    background: rgb(48, 48, 48);;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+    color: white;
+    border-radius: 5px;
+}
+
+.light {
+    background: white;
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+    color: white;
+    border-radius: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content {
+    padding: 40px;
+}
+
+.mac-toolbar-thing {
+    padding: 0;
+    background: #e5e5e5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 6px 0px 4px 5px;
+    color: black;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.dot-red {
+    height: 15px;
+    width: 15px;
+    background-color: #fc5b57;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-red-inner {
+    height: 5px;
+    width: 5px;
+    background-color: #97040c;
+    border-radius: 50%
+    margin: 0 auto;
+}
+
+.dot-yellow {
+    height: 15px;
+    width: 15px;
+    background-color: #e5bf3c;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-green {
+    height: 15px;
+    width: 15px;
+    background-color: #57c038;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .center:after {
@@ -121,7 +195,7 @@ pre {
 
 .left {
     float: left;
-    width: 75%;
+    position: absolute
 }
 
 .right {
@@ -138,6 +212,7 @@ pre {
     width: 33%;
     text-align: Left;
     padding-left: 10px;
+    color: white;
 }
 
 .nav-li {
@@ -152,7 +227,7 @@ pre {
     font-weight: 400; 
     line-height: 23px; 
     text-decoration: none;
-    color: black;
+    color: white;
     list-style-type: square;
 }
 

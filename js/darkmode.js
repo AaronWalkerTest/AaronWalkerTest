@@ -1,29 +1,14 @@
 function toggleDark() {
 
-    document.body.style.backgroundColor = "black";
 
-    var css = 'html {-webkit-filter: invert(100%);' +
-    '-moz-filter: invert(100%);' + 
-    '-o-filter: invert(100%);' + 
-    '-ms-filter: invert(100%); }',
+    var body = document.getElementById("content-container");
 
-    head = document.getElementsByTagName('head')[0],
-    style = document.createElement('style');
-
-    // a hack, so you can "invert back" clicking the bookmarklet again
-    if (!window.counter) { window.counter = 1;} else  { window.counter ++;
-    if (window.counter % 2 == 0) { 
-        document.body.style.backgroundColor = "white";
-        var css ='html {-webkit-filter: invert(0%); -moz-filter:    invert(0%); -o-filter: invert(0%); -ms-filter: invert(0%); }'}
-     };
-    
-    style.type = 'text/css';
-    if (style.styleSheet){
-    style.styleSheet.cssText = css;
+    if (body.classList = "center") {
+        body.classList.remove("center");
+        body.classList.add("light");
+        
     } else {
-    style.appendChild(document.createTextNode(css));
+        body.classList.remove("light");
+        body.classList.add("center");
     }
-    
-    //injecting the css to the head
-    head.appendChild(style);
 }
