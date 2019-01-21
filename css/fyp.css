@@ -1,0 +1,15 @@
+.fyp-content {
+    padding: 20px 40px 40px 40px;
+}
+
+.fyp-title {
+    text-align: left;
+}
+
+.fyp-li {
+    display: inline-block;
+}
+
+.fyp-button {
+    text-align: center;
+}
