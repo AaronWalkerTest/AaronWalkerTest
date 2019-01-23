@@ -126,6 +126,12 @@ pre {
     margin-bottom: 40px;
 }
 
+.center:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .light {
     background: white;
     margin: 0 auto;
@@ -185,12 +191,6 @@ pre {
     background-color: #57c038;
     border-radius: 50%;
     display: inline-block;
-}
-
-.center:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .left {
