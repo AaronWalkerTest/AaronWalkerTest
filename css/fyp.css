@@ -34,11 +34,13 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 15%;
+    width: 14%;
     background-color: rgb(48, 48, 48);
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    border-right: 1px solid #ccc;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
   }
   
 .fyp-nav-li a {
