@@ -1,7 +1,6 @@
 body {
     background: rgb(63, 82, 99);
-    padding: 0;
-    display: inline-block;
+    
 }
 
 .fyp-content {
@@ -22,11 +21,35 @@ body {
 
 .fyp-center {
     margin: 0 auto;
-    width: 30%;
-    background: rgb(48, 48, 48);;
+    width: 55%;
+    background: rgb(48, 48, 48);
     border: 1px solid #ccc;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
     color: white;
     border-radius: 5px;
     margin-bottom: 40px;
+}
+
+.fyp-nav.fyp-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: rgb(48, 48, 48);
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+  
+.fyp-nav-li a {
+    display: block;
+    border-style: none;
+  }
+
+.window-locator.window-locator {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+    border-style: none;
 }
