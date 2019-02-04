@@ -16,12 +16,43 @@
 <body>
 
     <ul class="fyp-nav">
-        <li class="fyp-nav-li"><a href="index.html">Personal Site</a></li><br>
+            <li class="fyp-nav-li"><a href="#weekthree">Week 3</a></li>
+        <li class="fyp-nav-li"><a href="#weekthree">Week 3</a></li>
         <li class="fyp-nav-li"><a href="#weektwo">Week 2</a></li>
         <li class="fyp-nav-li"><a href="#weekone">Week 1</a></li>
         <li class="fyp-nav-li"><a href="#research">Project Research</a></li>
-        <li class="fyp-nav-li"><a href="#myproject">My Project</a></li>
+        <li class="fyp-nav-li"><a href="#myproject">My Project</a></li><br>
+        <li class="fyp-nav-li"><a href="index.html">View my personal site</a></li>
     </ul><br>
+
+    <!-- Week Three -->
+
+    <div class="fyp-center" id="content-container"> <a class="window-locator" name="weekthree"></a>
+        <div class="mac-toolbar-thing">
+            <div class="left">
+                <span class="dot-red">
+                    <span class="dot-red-inner"></span>
+                </span>
+                <span class="dot-yellow"></span>
+                <span class="dot-green"></span>
+            </div>
+            weekthree_04-02-2019.txt
+        </div>
+        <div class="fyp-content">
+            <div class="fyp-title">
+                <h1>Week Three</h1>
+            </div>
+            <h2>04/02/2019</h2>
+            <p>The goals for this week:<br>
+                - Start coding the following functions:<br>
+                &emsp;&emsp;- Convolve()<br>
+                &emsp;&emsp;- ReLu()<br>
+                &emsp;&emsp;- Softmax()<br>
+                - Start the proect report, include the neural network design.<br>
+                - Work on the literature review. 
+            </p>
+        </div>
+    </div>
 
     <!-- Week Two -->
 
@@ -41,10 +72,29 @@
                     <h1>Week Two</h1>
                 </div>
                 <h2>28/01/2019</h2>
-                <p>The goals for this week:<br>
-                    - Gather and organise my training data.<br>
-                    - Complete the convolutional neural network design.<br>
-                    - Work on my literature review. 
+                <p>The goals for this week included gathering and organising my training data. This was a large task as the data
+                    set I proposed to use was not organised into age categories as required by my neural network. I created a 
+                    Python script that automatically moved the data into the correct folders, this worked by reading the file name
+                    and performing a lookup in an excel document that contained the age category. <br><br>
+                    
+                    The results from the organised data provided me with 16,937 unique images, this was lower than I expected as 
+                    I found the majority of images in my data set where labelled incorrectly or simply did not have an age label. 
+                    This presented a problem as this was not enough training data for the project. I created my own data set by
+                    supplementing my existing data with images from the UTKFace large scale face dataset, available at the 
+                    following link: </p><br>
+
+                <div class="fyp-button">
+                    <li class="fyp-li"><a href="https://susanqq.github.io/UTKFace/">UTKFace Dataset</a>
+                </div><br>
+
+                <p>The final count of images after including this dataset was 24,699 unique face images. This is much better than
+                    the count from the initial data set. After the testing stage of the project, I may require more images that I 
+                    can obtain through upsampling techniques. <br><br>
+                    
+                    This week I also focused on my convolutional neural network design. I produced a detailed diagram of the 
+                    neural network including information on my convolution layers, kernel sizes, stride and number of feature maps.
+                    I have also produced a section of my final year project that explains in detail the neural network design with
+                    justifications and supporting literature. 
                 </p>
             </div>
         </div>
